@@ -8,6 +8,6 @@ public class Bill3 {
 		double payment = Double.parseDouble(args[3]);
 		// divide the payment by 3 and round it up if its doesn't split evenly
 		payment= Math.ceil(payment / 3.0);
-		System.out.println("Dear " + name3  + ", " + name2  + " and " + name1 + ": pay " + payment + " Shekels each");
+		System.out.println("Dear " + name3  + ", " + name2  + ", and " + name1 + ": pay " + payment + " Shekels each");
 	}
 }
