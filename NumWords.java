@@ -9,6 +9,6 @@ public class NumWords {
 		int tens = (Number - (Hundreds*100)) / 10;
 		// get only the ones by removing from the number the hundreds and the tens
 		int ones = (Number - (Hundreds*100)) - (tens*10);
-		System.out.println(Hundreds + " hundreds, " + tens + " tens, and " + ones + " ones ");
+		System.out.println(Hundreds + " hundreds, " + tens + " tens, and " + ones + " ones. ");
 	}
 }

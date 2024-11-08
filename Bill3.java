@@ -5,9 +5,9 @@ public class Bill3 {
 	    String name1 = args[0];
 		String name2 = args[1];
 		String name3 = args[2];
-		int payment = Integer.parseInt(args[3]);
+		double payment = Double.parseDouble(args[3]);
 		// divide the payment by 3 and round it up if its doesn't split evenly
-		payment= (int)Math.ceil(payment / 3.0);
-		System.out.println("dear " + name1  + ", " + name2  + " and " + name3 + " pay " + payment + " Shekels each");
+		payment= Math.ceil(payment / 3.0);
+		System.out.println("Dear " + name3  + ", " + name2  + " and " + name1 + ": pay " + payment + " Shekels each");
 	}
 }
